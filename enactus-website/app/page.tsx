@@ -93,6 +93,211 @@ export default function Home() {
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center w-full shadow-2xl"
               />
             </div>
+
+            {/* Team Members Section */}
+            <div className="mt-16">
+              <div className="text-center mb-12">
+                <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mb-4">Meet Our Team</h3>
+                <p className="text-gray-500 max-w-2xl mx-auto">
+                  The brilliant minds behind TechFlow, working together to build the future of productivity.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {/* Team Member 1 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Gurjodh"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-blue-100 group-hover:border-blue-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                      President
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Gurj Dhaliwal</h4>
+                    <p className="text-sm text-gray-500 mb-2">President</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">🚀</span>
+                  </div>
+                </div>
+
+                {/* Team Member 2 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Sara Sail"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-green-100 group-hover:border-green-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-green-600 text-white text-xs px-2 py-1 rounded-full">
+                      VP
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Sara Sail</h4>
+                    <p className="text-sm text-gray-500 mb-2">Vice President</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">⚡</span>
+                  </div>
+                </div>
+
+                {/* Team Member 3 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Jade Andersen"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-purple-100 group-hover:border-purple-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-purple-600 text-white text-xs px-2 py-1 rounded-full">
+                      EA
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Jade Andersen</h4>
+                    <p className="text-sm text-gray-500 mb-2">Executive Assistant</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">🎨</span>
+                  </div>
+                </div>
+
+                {/* Team Member 4 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Bailey Nixon"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-orange-100 group-hover:border-orange-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-orange-600 text-white text-xs px-2 py-1 rounded-full">
+                      Marketing
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Bailey Nixon</h4>
+                    <p className="text-sm text-gray-500 mb-2">Marketing Manager</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">💻</span>
+                  </div>
+                </div>
+
+                {/* Team Member 5 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Autri Dev"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-pink-100 group-hover:border-pink-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-pink-600 text-white text-xs px-2 py-1 rounded-full">
+                      Finance
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Autri Dev</h4>
+                    <p className="text-sm text-gray-500 mb-2">Finance Manager</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>
+
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">📈</span>
+                  </div>
+                </div>
+
+                {/* Team Member 6 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Archie Choudary"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-indigo-100 group-hover:border-indigo-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-indigo-600 text-white text-xs px-2 py-1 rounded-full">
+                      SIO
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Archie Choudary</h4>
+                    <p className="text-sm text-gray-500 mb-2">Social Impact Officer</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p>  
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">🎯</span>
+                  </div>
+                </div>
+
+                {/* Team Member 7 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Jelani Goldson"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-teal-100 group-hover:border-teal-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-teal-600 text-white text-xs px-2 py-1 rounded-full">
+                      Lead
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Jelani Goldson</h4>
+                    <p className="text-sm text-gray-500 mb-2">Student Leader</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p> 
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">📊</span>
+                  </div>
+                </div>
+
+                {/* Team Member 8 */}
+                <div className="group relative bg-white rounded-2xl p-6 shadow-sm border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  <div className="relative mb-4">
+                    <Image
+                      src="/placeholder.svg?height=80&width=80"
+                      alt="Aksdeep Randhawa"
+                      width={80}
+                      height={80}
+                      className="rounded-full mx-auto border-4 border-red-100 group-hover:border-red-200 transition-colors"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">
+                      Lead
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-semibold text-gray-900 mb-1">Aksdeep Randhawa</h4>
+                    <p className="text-sm text-gray-500 mb-2">Student Leader</p>
+                    <p className="text-xs text-gray-400 italic">Lorem ipsum, dolor sit amet.</p> 
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-2xl">🤝</span>
+                  </div>
+                </div>
+              </div>
+              </div>
           </div>
         </section>
 
@@ -113,7 +318,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <Zap className="h-10 w-10 text-blue-600" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Lightning Fast</h3>
+                    <h3 className="text-xl font-bold">Project 1</h3>
                     <p className="text-gray-500">
                       ---
                     </p>
@@ -140,7 +345,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <Shield className="h-10 w-10 text-blue-600" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Enterprise Security</h3>
+                    <h3 className="text-xl font-bold">Project 2</h3>
                     <p className="text-gray-500">
                       ---
                     </p>
@@ -167,7 +372,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <Rocket className="h-10 w-10 text-blue-600" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Easy Integration</h3>
+                    <h3 className="text-xl font-bold">Project 3</h3>
                     <p className="text-gray-500">
                       ---
                     </p>
